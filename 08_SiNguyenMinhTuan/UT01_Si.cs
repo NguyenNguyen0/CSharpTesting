@@ -3,7 +3,7 @@
 namespace _08_SiNguyenMinhTuan
 {
     [TestClass]
-    public class UT03_Si
+    public class UT01_Si
     {
         [TestMethod]
         public void TestMethod1()

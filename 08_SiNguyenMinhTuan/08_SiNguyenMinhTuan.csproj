@@ -55,12 +55,12 @@
   <ItemGroup>
     <Compile Include="UT07_Tuan.cs" />
     <Compile Include="UT05_Minh.cs" />
-    <Compile Include="UT03_Si.cs" />
+    <Compile Include="UT01_Si.cs" />
     <Compile Include="UT03_Nguyen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UT08_Tuan.cs" />
     <Compile Include="UT06_Minh.cs" />
-    <Compile Include="UT04_Si.cs" />
+    <Compile Include="UT02_Si.cs" />
     <Compile Include="UT04_Nguyen.cs" />
   </ItemGroup>
   <ItemGroup>
