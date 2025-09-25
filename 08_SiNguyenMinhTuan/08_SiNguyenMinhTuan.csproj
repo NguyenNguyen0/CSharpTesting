@@ -64,6 +64,9 @@
     <Compile Include="UT04_Nguyen.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="DataUT03.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
