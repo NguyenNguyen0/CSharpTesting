@@ -53,8 +53,8 @@
     <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UT07_Tuan.cs" />
-    <Compile Include="UT05_Minh.cs" />
+    <Compile Include="UT07_Tuan_DataDriven.cs" />
+    <Compile Include="UT05_Minh_DataDriven.cs" />
     <Compile Include="UT01_Si.cs" />
     <Compile Include="UT03_Nguyen_DataDriven.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +71,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataUT05.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
