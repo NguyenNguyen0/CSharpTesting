@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _08_SiNguyenMinhTuan
 {
-    internal class UT02_Nguyen
+    internal class UT06_Nguyen
     {
     }
 }

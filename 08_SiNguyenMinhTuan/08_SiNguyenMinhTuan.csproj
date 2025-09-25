@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MethodLibrary">
+      <HintPath>..\..\MethodLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.2.2.10\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
     </Reference>
@@ -47,17 +50,18 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UT07_Tuan.cs" />
     <Compile Include="UT05_Minh.cs" />
     <Compile Include="UT03_Si.cs" />
-    <Compile Include="UT01_Nguyen.cs" />
+    <Compile Include="UT03_Nguyen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UT08_Tuan.cs" />
     <Compile Include="UT06_Minh.cs" />
     <Compile Include="UT04_Si.cs" />
-    <Compile Include="UT02_Nguyen.cs" />
+    <Compile Include="UT04_Nguyen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

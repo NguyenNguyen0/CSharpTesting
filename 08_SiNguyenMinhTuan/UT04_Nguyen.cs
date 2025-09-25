@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace _08_SiNguyenMinhTuan
 {
     [TestClass]
-    public class UT02_Nguyen
+    public class UT04_Nguyen
     {
         [TestMethod]
         public void TestMethod1()
