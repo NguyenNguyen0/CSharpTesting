@@ -18,7 +18,7 @@ namespace _08_SiNguyenMinhTuan
             int tienDienMoi = Convert.ToInt32(TestContext.DataRow[1]);
             double expectedResult = Convert.ToDouble(TestContext.DataRow[2]);
             double actualResult = o.TinhTienDien(tienDienCu, tienDienMoi);
-            Assert.AreEqual(expectedResult, actualResult, 0.001); ;
+            Assert.AreEqual(expectedResult, actualResult, 0.001);
         }
     }
 }
