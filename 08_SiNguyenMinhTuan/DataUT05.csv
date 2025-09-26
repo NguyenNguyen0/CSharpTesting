@@ -1,11 +1,11 @@
-﻿s,n,p,output
-abcdef,2,2,abef
+﻿s,n,p,Test case results
+abcdef,2,2,adef
 abcdef,-5,2,abcdef
-abcdef,10,3,abc
+abcdef,10,3,abcdef
 abcdef,2,-5,abcdef
 a,0,0,a
-a,1,0,
+a,1,0," "
 abcdef,-1,5,abcdef
-abcdef,3,4,abcd
-abcdef,2,5,abcdef
+abcdef,3,4,abc
+abcdef,2,5,abcd
 abcdef,4,-1,abcdef
