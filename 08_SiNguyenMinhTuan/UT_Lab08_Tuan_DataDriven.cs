@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace _08_SiNguyenMinhTuan
 {
     [TestClass]
-    public class UT08_Tuan_DataDriven
+    public class UT_Lab08_Tuan_DataDriven
     {
         public TestContext TestContext { get; set; }
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",

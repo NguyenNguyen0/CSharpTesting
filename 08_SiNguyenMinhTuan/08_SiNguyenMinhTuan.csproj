@@ -40,7 +40,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MethodLibrary">
-      <HintPath>..\..\..\Test\MethodLibrary.dll</HintPath>
+      <HintPath>..\..\MethodLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.2.2.10\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
@@ -53,15 +53,15 @@
     <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UT07_Tuan_DataDriven.cs" />
-    <Compile Include="UT05_Minh_DataDriven.cs" />
-    <Compile Include="UT01_Si.cs" />
-    <Compile Include="UT03_Nguyen_DataDriven.cs" />
+    <Compile Include="UT_Lab07_Tuan_DataDriven.cs" />
+    <Compile Include="UT_Lab05_Minh_DataDriven.cs" />
+    <Compile Include="UT_Lab01_Si.cs" />
+    <Compile Include="UT_Lab03_Nguyen_DataDriven.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UT08_Tuan.cs" />
-    <Compile Include="UT06_Minh.cs" />
-    <Compile Include="UT02_Si.cs" />
-    <Compile Include="UT04_Nguyen.cs" />
+    <Compile Include="UT_Lab06_Minh.cs" />
+    <Compile Include="UT_Lab02_Si.cs" />
+    <Compile Include="UT_Lab04_Nguyen.cs" />
+    <Compile Include="UT_Lab08_Tuan_DataDriven.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DataUT03.csv">

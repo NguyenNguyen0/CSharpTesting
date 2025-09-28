@@ -5,7 +5,7 @@ using System;
 namespace _08_SiNguyenMinhTuan
 {
     [TestClass]
-    public class UT04_Nguyen
+    public class UT_Lab04_Nguyen
     {
         [TestMethod]
         public void TestMethod1()

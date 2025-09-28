@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace _08_SiNguyenMinhTuan
 {
     [TestClass]
-    public class UT05_Minh_DataDriven
+    public class UT_Lab05_Minh_DataDriven
     {
         public TestContext TestContext { get; set; }
 

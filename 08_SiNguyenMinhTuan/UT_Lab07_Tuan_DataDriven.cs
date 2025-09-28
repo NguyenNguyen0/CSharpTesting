@@ -5,7 +5,7 @@ using System.Linq;
 namespace _08_SiNguyenMinhTuan
 {
     [TestClass]
-    public class UT07_Tuan_DataDriven
+    public class UT_Lab07_Tuan_DataDriven
     {
         public TestContext TestContext { get; set; }
 

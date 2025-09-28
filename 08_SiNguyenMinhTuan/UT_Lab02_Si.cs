@@ -4,7 +4,7 @@ using System;
 namespace _08_SiNguyenMinhTuan
 {
     [TestClass]
-    public class UT02_Si
+    public class UT_Lab02_Si
     {
         [TestMethod]
         public void TestMethod1()
